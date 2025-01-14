@@ -1,6 +1,4 @@
 const { dialog, mainWindow } = require("electron");
-const fs = require("node:fs")
-
 
 async function openFileSelector(multiple) {
   const props = multiple ? ['openFile', 'multiSelections'] : ['openFile']

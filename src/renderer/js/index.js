@@ -19,6 +19,11 @@ formsLoginSection.forEach(form => {
     e.preventDefault()
     console.log(form)
     document.getElementById('login-section').classList.add('d-none');
-    document.getElementById('loader').classList.remove('d-none')
+    document.getElementById('loader').classList.remove('d-none');
+
+    setTimeout(() => {
+      document.getElementById('loader').classList.add('d-none');
+      document.getElementById('main').classList.remove('d-none');
+    }, 5000);
   })
 })
