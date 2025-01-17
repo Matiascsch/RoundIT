@@ -133,14 +133,14 @@
     <header class="header">
       <nav>
         <li>
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house"
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-house"
             viewBox="0 0 16 16">
             <path
               d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
           </svg>
         </li>
         <li>
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-robot"
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-robot"
             viewBox="0 0 16 16">
             <path
               d="M6 12.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5M3 8.062C3 6.76 4.235 5.765 5.53 5.886a26.6 26.6 0 0 0 4.94 0C11.765 5.765 13 6.76 13 8.062v1.157a.93.93 0 0 1-.765.935c-.845.147-2.34.346-4.235.346s-3.39-.2-4.235-.346A.93.93 0 0 1 3 9.219zm4.542-.827a.25.25 0 0 0-.217.068l-.92.9a25 25 0 0 1-1.871-.183.25.25 0 0 0-.068.495c.55.076 1.232.149 2.02.193a.25.25 0 0 0 .189-.071l.754-.736.847 1.71a.25.25 0 0 0 .404.062l.932-.97a25 25 0 0 0 1.922-.188.25.25 0 0 0-.068-.495c-.538.074-1.207.145-1.98.189a.25.25 0 0 0-.166.076l-.754.785-.842-1.7a.25.25 0 0 0-.182-.135" />
@@ -149,14 +149,14 @@
           </svg>
         </li>
         <li>
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope"
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope"
             viewBox="0 0 16 16">
             <path
               d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
           </svg>
         </li>
         <li>
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-gear"
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-gear"
             viewBox="0 0 16 16">
             <path
               d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0" />
@@ -165,7 +165,7 @@
           </svg>
         </li>
         <li>
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle"
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-circle"
             viewBox="0 0 16 16">
             <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
             <path fill-rule="evenodd"
@@ -177,10 +177,122 @@
 
     <!-- Main page -->
     <section id="dashboard" class="dashboard">
-      <div class="">
-        <h1>Round It</h1>
-        <p>La app que te ayuda a redondear tus gastos</p>
-        <button id="login-button">Iniciar Sesión</button>
+      <div class="dashboard-info">
+        <div class="dashboard-info_stats">
+          <h1>Stats</h1>
+        </div>
+
+        <div class="dashboard-info_stats">
+          <h2>Stats</h2>
+        </div>
+      </div>
+
+      <div class="dashboard-user_clients">
+        <div class="dashboard-cards_header">
+          <h4>Mis Dashboards</h4>
+        </div>
+        <div class="dashboard-cards_list">
+          <article class="dashboard-card">
+            <header class="dashboard-card_header">
+              <span class="card-header_created">Creado el: 25 Marzo 2025</span>
+              <span class="card-header_status active">Activo</span>
+              <h2 class="card-header_title">Dashboard</h2>
+            </header>
+
+            <div class="dashboard-card_body">
+              <div class="card-body_enterprise">
+                <span class="card-body_img">
+                  <img src="../assets/logo.jpeg" alt="Imagen de la Empresa">
+                </span>
+                <h3 class="card-body_title">
+                  Empresa
+                  <span class="card-body-locality">Argentina</span>
+                </h3>
+                <!-- <p class="tooltip">Descripcion</p> -->
+              </div>
+
+              <div class="card-body_tools">
+                <span class="card-body_tool">Pasivos Omitidos</span>
+                <span class="card-body_tool">Alternativo de Depòsitos</span>
+              </div>
+            </div>
+          </article>
+          <article class="dashboard-card">
+            <header class="dashboard-card_header">
+              <span class="card-header_created">Creado el: 25 Marzo 2025</span>
+              <span class="card-header_status active">Activo</span>
+              <h2 class="card-header_title">Dashboard</h2>
+            </header>
+
+            <div class="dashboard-card_body">
+              <div class="card-body_enterprise">
+                <span class="card-body_img">
+                  <img src="../assets/logo.jpeg" alt="Imagen de la Empresa">
+                </span>
+                <h3 class="card-body_title">
+                  Empresa
+                  <span class="card-body-locality">Argentina</span>
+                </h3>
+                <!-- <p class="tooltip">Descripcion</p> -->
+              </div>
+
+              <div class="card-body_tools">
+                <span class="card-body_tool">Pasivos Omitidos</span>
+                <span class="card-body_tool">Alternativo de Depòsitos</span>
+              </div>
+            </div>
+          </article>
+          <article class="dashboard-card">
+            <header class="dashboard-card_header">
+              <span class="card-header_created">Creado el: 25 Marzo 2025</span>
+              <span class="card-header_status active">Activo</span>
+              <h2 class="card-header_title">Dashboard</h2>
+            </header>
+
+            <div class="dashboard-card_body">
+              <div class="card-body_enterprise">
+                <span class="card-body_img">
+                  <img src="../assets/logo.jpeg" alt="Imagen de la Empresa">
+                </span>
+                <h3 class="card-body_title">
+                  Empresa
+                  <span class="card-body-locality">Argentina</span>
+                </h3>
+                <!-- <p class="tooltip">Descripcion</p> -->
+              </div>
+
+              <div class="card-body_tools">
+                <span class="card-body_tool">Pasivos Omitidos</span>
+                <span class="card-body_tool">Alternativo de Depòsitos</span>
+              </div>
+            </div>
+          </article>
+          <article class="dashboard-card">
+            <header class="dashboard-card_header">
+              <span class="card-header_created">Creado el: 25 Marzo 2025</span>
+              <span class="card-header_status active">Activo</span>
+              <h2 class="card-header_title">Dashboard</h2>
+            </header>
+
+            <div class="dashboard-card_body">
+              <div class="card-body_enterprise">
+                <span class="card-body_img">
+                  <img src="../assets/logo.jpeg" alt="Imagen de la Empresa">
+                </span>
+                <h3 class="card-body_title">
+                  Empresa
+                  <span class="card-body-locality">Argentina</span>
+                </h3>
+                <!-- <p class="tooltip">Descripcion</p> -->
+              </div>
+
+              <div class="card-body_tools">
+                <span class="card-body_tool">Pasivos Omitidos</span>
+                <span class="card-body_tool">Alternativo de Depòsitos</span>
+              </div>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
   </main>

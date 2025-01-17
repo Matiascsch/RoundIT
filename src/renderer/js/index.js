@@ -24,6 +24,6 @@ formsLoginSection.forEach(form => {
     setTimeout(() => {
       document.getElementById('loader').classList.add('d-none');
       document.getElementById('main').classList.remove('d-none');
-    }, 5000);
+    }, 1000);
   })
 })
